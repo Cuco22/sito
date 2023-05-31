@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(255, 254, 252)
+}
+
+#header {
+	background-image: linear-gradient(rgba(103, 143, 162, 0.5), rgb(255, 255, 255)), url("immagini/ivreaTurismo.jpg");
+}
+
+.hd{
+	width: 100%;
+	min-height: 20vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.TurismoIvrea {
+    text-align: center;
+	min-height: 57vh;
+	position: relative;
+}
+
+.intro{
+    text-shadow: rgba(0, 0, 0, 0.425);
+    color: black;
+    text-size-adjust: 150px;
+	background-color: rgba(0, 255, 255, 0.113);
+}
+
+.Turismo {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+.btn-close{
+    background-color: cornflowerblue;
+	float: left;
+}
+
+.Titolo{
+	font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.421);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.BtnScopri{
+	color: rgb(255, 0, 0);
+	font: bold;
+	cursor: pointer;
+	background-color: rgb(255, 255, 255);
+	width: 100px;
+	height: 30px;
+	border-color: rgb(255, 0, 0);
+	margin-left: 70%;
+}
+
+.Turismo-contenuto {
+	width: 50%;
+	position: relative;
+	top: 6%;
+	left: 25%;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.Castello{
+	background-color: rgba(127, 255, 212, 0.524);
+}
+
+.card-castello{
+	bottom: 100px;
+	float: left;
+	height: 300px;
+	width: 450px;
+	right: 150px;
+}
+
+.descrizioneCastello{
+	bottom: 100px;
+	text-align:justify;
+	right: 300px;
+	height: 300px;
+	width: 40%;
+	float: left;
+	background-color: rgba(44, 130, 206, 0.37);
+	font-size: 11px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.immagine-destra{
+	bottom: 100px;
+	float: right;
+	height: 300px;
+	width: 450px;
+}
+
+.descrizioneDestra{
+	bottom: 100px;
+	text-align:justify;
+	right: 300px;
+	height: 300px;
+	width: 40%;
+	float: right;
+	background-color: rgba(44, 130, 206, 0.37);
+	font-size: 11px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.descrizioneMuseo{
+	bottom: 100px;
+	text-align:justify;
+	right: 300px;
+	height: 400px;
+	width: 40%;
+	float: right;
+	background-color: rgba(44, 130, 206, 0.37);
+	font-size: 11px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.immagine-olivetti{
+	bottom: 100px;
+	float: right;
+	height: 400px;
+	width: 450px;
+}
+

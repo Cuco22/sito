@@ -1,0 +1,194 @@
+.Titolo{
+    font-size: 36px;
+  
+ 
+    font-family: "Montserrat", sans-serif;
+      
+     
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: blue;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.Intestazione{
+    height: 120px;
+    background-color: rgba(14, 127, 133, 0.134);
+    text-decoration-color: black;
+}
+
+.Elenco{
+    width: 300px;
+    height: 900px;
+    top: 225px;
+    float: left;
+    overflow: auto;
+    padding: 20px;
+    position: fixed;
+    background-color: #1ac0fd63;
+    text-decoration-color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.PaginaPrinc{
+    overflow: auto;
+}
+
+.welcome{
+    size: 500px;
+    background-color: #18181886;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.Principale{
+    left: 310px;
+    float: left;
+    top: 225px;
+    width: 1000px;
+    overflow: auto;
+    background-color: white;
+    text-decoration-color: black;
+    font-family:'Times New Roman', Times, serif;
+    position: fixed;
+}
+
+.PuntiRight{
+    float: right;
+    width: 300px;
+    font-family: 'Museo Slab', sans-serif;
+    color: rgb(255, 0, 0);
+}
+
+.imgLeft{
+    float: left;
+}
+
+.imgCartina{
+    width: 600px;  
+    height: 400;
+}
+
+.imgEpunti{
+    overflow: hidden;
+}
+
+.h3{
+    position: relative;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.404);
+    background-color: #0133ff;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    overflow: hidden;
+    font-size: 30px;
+    font-style: italic;
+    animation: backgroundAnimation 10s linear infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+      background-color: #FFD700;
+    }
+    50% {
+      background-color: #FFA500;
+    }
+    100% {
+      background-color: #FF4500;
+    }
+    50% {
+        background-color: #FFA500;
+    }
+    0% {
+    background-color: #FFD700;
+    }
+}
+
+.Bottoni{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-top: 10px;
+    padding: .1em .6em;
+	text-align: center;
+	font-size:2vw;
+}
+
+.BtnTurismo{
+    cursor: pointer;
+	padding: .1em .6em;
+	font-weight: bold;  
+	border: none;
+	color: black;
+    background-color: whitesmoke;
+	margin-bottom: 10px;
+	width: 18vw;
+}
+
+.BtnOlivetti{
+    cursor: pointer;
+	padding: .1em .6em;
+	font-weight: bold;  
+	border: none;
+	color: #E74C3C;
+    background-color: blue;
+	margin-bottom: 10px;
+	width: 18vw;
+}
+
+.BtnArduino{
+    cursor: pointer;
+	padding: .1em .6em;
+	font-weight: bold;  
+	border: none;
+	color:  #FFD700;
+    background-color: #000080;
+	margin-bottom: 10px;
+	width: 18vw;
+}
+
+.BtnMuseo{
+    cursor: pointer;
+	padding: .1em .6em;
+	font-weight: bold;  
+	border: none;
+	color: #FF6384 ;
+    background-color: #1D3557;
+	margin-bottom: 10px;
+	width: 18vw;
+}
+
+.BtnFoto{
+    cursor: pointer;
+	padding: .1em .6em;
+	font-weight: bold;  
+	border: none;
+	color: #800080;
+    background-color: greenyellow;
+	margin-bottom: 10px;
+	width: 18vw;
+}
+  
+.IntroTurismo{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.intro-t-text{
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
+  
+  
+  
+  
+  
+
+

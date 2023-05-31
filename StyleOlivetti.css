@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(6, 93, 173)
+}
+
+#header {
+	background-image: linear-gradient(rgba(221, 214, 214, 0.5), rgb(6, 93, 173)), url("immagini/mostra_olivetti.jpg");
+}
+
+.hd{
+	width: 100%;
+	min-height: 40vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.OlivettiIvrea{
+    text-align: center;
+	min-height: 40vh;
+	position: relative;
+}
+
+.intro{
+    text-shadow: rgba(0, 0, 0, 0.425);
+    color: black;
+    text-size-adjust: 150px;
+	background-color: rgba(0, 255, 255, 0.195);
+    border-bottom: 300px;
+    color: blue;
+    font-size: 20px;
+}
+
+.Olivetti{
+	width: 100%;
+	min-height: 70vh;
+	position: relative;
+    background-color: rgb(6, 93, 173)
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .cont p {
+    border-bottom: 1px solid rgb(248, 11, 11);
+    border-top: 1px solid rgb(248, 11, 11);
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.404);
+    text-align: center;
+  }
+
+  .sotto{
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.873);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+.Titolo{
+	font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.421);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn-close{
+    background-color: cornflowerblue;
+	float: left;
+}
+
+.h3{
+	font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.421);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);    
+}
+
+.stOlivetti{
+    background-color: rgba(240, 248, 255, 0.938);
+}
+
+.infoMuseo{
+    padding-top: 10px;
+    border-top: 1px solid rgb(248, 11, 11);
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.404);
+    text-align: center;
+}
+
+.eccoFoto{
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 70px;
+    color: #e51414;
+    background-color: rgba(245, 245, 245, 0.332);     
+    text-align: center
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .image-container img {
+    width: 300px;
+    height: 200px;
+    margin-top: 50%;
+  }
+  
+  .image-description {
+    margin-top: 0;
+  }
+
+
+  .container2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .image-container img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .image-description {
+    margin-top: 0;
+  }
+
+  
